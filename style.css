@@ -1,0 +1,42 @@
+*{
+    margin:0;
+
+}
+/* navigation menu */
+nav{
+    background-color: black;
+
+}
+nav ul li{
+    display:inline;
+    padding:25px;
+      
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+   
+}
+/* .search-box{
+    text-align: right;
+    margin-bottom: 60px;
+} */
+/* slide show images */
+.slide-images{
+    position:relative;
+    width:100%;
+    height:100vh;
+}
+.slide-images .slide{
+    position:absolute;
+    top:0;
+    left:0;
+       float:left;
+}
+.slide-images .slide .slide-images{
+    width:20%;
+    height:100%;
+    float:left;
+}
+
+
