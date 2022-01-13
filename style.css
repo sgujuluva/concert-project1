@@ -1,21 +1,20 @@
 *{
     margin:0;
-
+}
+body{
+    background-color: #BFD4DE;
 }
 /* navigation menu */
 nav{
-    background-color:lightblue;
+    background-color:black;
         display: flex;
         padding:0.5rem;
         justify-content: space-between;
 }
-nav ul{
-    border:1px solid red;
-}
 nav ul li{
     display:inline;
     padding:25px;
-      
+     
 }
 nav ul li a{
     color:white;
@@ -24,10 +23,11 @@ nav ul li a{
 }
 .search-box{
     text-align: right;
+    color:white;
   
 } 
 /* slide show images */
-.slide-images{
+/* .slide-images{
     position:relative;
     width:100%;
     height:100vh;
@@ -41,8 +41,23 @@ nav ul li a{
 .slide-images .slide .slide-images{
     width:20%;
     height:100%;
-    float:left;
+    float:left; */
+/* } */
+
+/* tour section */
+.tour h3 {
+text-align: center;
+margin-bottom: 5px;
 }
+.tour p {
+    text-align: center;
+    margin-bottom: 5px;
+    }
+
+.tour-availability ul li{
+
+}
+
 /* band styling */
 .band-text {
     text-align: center;
@@ -56,10 +71,39 @@ nav ul li a{
     text-align: center;
     margin-top: 20px;
 }
-
+/* tour destination */
 .tour-destination{
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin-top: 20px;
 }
+.tour-destination h3 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.tour-destination button{
+    background-color:black;
+    color: white;
+}
+.tour-destination span{
+    color:grey;
+    font-style: italic;
+}
+ /* contact section */
+ .contact-section h3{
+     margin-top: 20px;
+text-align: center;
+ }
+ .contact-section p{
+    margin-top: 15px;
+     color:grey;
+     text-align: center;
+ }
+ .location-info {
+    margin-top: 20px;
+display:flex;
+justify-content:space-around;
+ }
+
+ 
