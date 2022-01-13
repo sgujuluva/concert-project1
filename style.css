@@ -4,8 +4,13 @@
 }
 /* navigation menu */
 nav{
-    background-color: black;
-
+    background-color:lightblue;
+        display: flex;
+        padding:0.5rem;
+        justify-content: space-between;
+}
+nav ul{
+    border:1px solid red;
 }
 nav ul li{
     display:inline;
@@ -17,10 +22,10 @@ nav ul li a{
     text-decoration: none;
    
 }
-/* .search-box{
+.search-box{
     text-align: right;
-    margin-bottom: 60px;
-} */
+  
+} 
 /* slide show images */
 .slide-images{
     position:relative;
@@ -38,5 +43,23 @@ nav ul li a{
     height:100%;
     float:left;
 }
+/* band styling */
+.band-text {
+    text-align: center;
+}
+.band-text h3{
+    margin-bottom: 20px;
+}
+.member-request{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
 
-
+.tour-destination{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
