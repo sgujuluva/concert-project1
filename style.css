@@ -102,8 +102,43 @@ text-align: center;
  }
  .location-info {
     margin-top: 20px;
-display:flex;
+    margin-bottom: 20px;
+    display:flex;
 justify-content:space-around;
- }
 
+ }
+ .location-info .chic span{
+     padding:20px;
+ }
+ .location-info .phone span{
+    padding:20px;
+}
+.location-info .email span{
+    padding:20px;
+}
+/* form section */
+.contact-form{
+    text-align: center;
+}
+ /* map */
+ .map-image p{
+     font-size: xx-large;
+margin-top: 20px;
+margin-bottom: 20px;
+ }
+/* social icons */
+.social-icons{
+    margin-top: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
  
+.social-icons ul li {
+  
+    display:inline;
+    
+}
+.social-icons ul li a{
+   
+    color:grey;
+}
